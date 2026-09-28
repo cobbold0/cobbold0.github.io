@@ -32,6 +32,17 @@ The app stores:
 - Your Math Notes (the notes you write and their calculations)
 - Your theme, haptics choice, unlocked themes and any ad-free time you earned
 
+## Analytics (Google Firebase)
+
+The app uses **Google Analytics for Firebase** to understand how features are used (for example, which screens are opened) so we can improve the app. Firebase may collect:
+
+- App usage events and screens viewed
+- Device information (for example, device model, OS version, app version)
+- An app instance ID and, where you allow it, the advertising ID
+- Approximate location derived from your IP address
+
+Analytics follows your consent choice: in the EU, EEA, UK and Switzerland nothing is stored until you choose, and you can change your choice from the app's menu. We don't use analytics to identify you. See: https://firebase.google.com/support/privacy
+
 ## Advertising (Google AdMob)
 
 The app shows banner ads provided by **Google AdMob** on some screens, such as Convert, Tools and History. The calculator keypad itself does not show ads.
