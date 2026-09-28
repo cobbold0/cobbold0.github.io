@@ -29,10 +29,14 @@ The app stores:
 - Your calculation history (expressions and results)
 - App preferences and settings (for example, Basic or Scientific mode)
 - The most recent currency exchange rates, so the converter works offline
+- Your Math Notes (the notes you write and their calculations)
+- Your theme, haptics choice, unlocked themes and any ad-free time you earned
 
 ## Advertising (Google AdMob)
 
 The app shows banner ads provided by **Google AdMob** on some screens, such as Convert, Tools and History. The calculator keypad itself does not show ads.
+
+You can also choose to watch a **rewarded ad** to unlock a theme or get 24 hours without ads. Rewarded ads only play when you tap a button to watch one, and are provided by Google AdMob in the same way as banner ads.
 
 To show, personalize and measure ads, and to prevent fraud, Google may collect and process:
 
