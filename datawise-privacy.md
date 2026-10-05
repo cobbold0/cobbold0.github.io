@@ -1,6 +1,6 @@
 # DataWise Privacy Policy
 
-**Last updated: October 5, 2026**
+**Last updated: October 5, 2026** (bundles, history, blocking apps and balance check added)
 
 ## Summary (in plain English)
 
@@ -20,18 +20,29 @@ This information is processed **only on your device**. It is not sent to us or t
 
 DataWise stores on your device:
 
-- The data limits you set and which limit notifications were already sent
+- A daily history of how much data each app used, so forecasts and month-by-month comparisons work
+- The data bundles you enter (size, dates and the price you typed, if any) and your balance corrections
+- The data limits you set and which notifications were already sent
+- Apps you chose to block on mobile data (Premium)
 - Whether you bought Premium (so ads stay off)
 
 This data never leaves your device and is deleted when you uninstall the app.
 
 ## Notifications
 
-If you set a data limit, DataWise checks your usage about every 15 minutes in the background and notifies you at 80%, 100% and 125% of the limit. This happens entirely on your device.
+DataWise checks your usage about every 15 minutes in the background to save its history, notify you about limits you set (at 80%, 100% and 125%), warn you when your bundle runs low, and send a monthly summary on the 1st. All of this happens on your device.
+
+## Blocking apps on mobile data (Premium)
+
+If you choose to block an app on mobile data, DataWise uses Android's VPN feature on your device: only the apps you blocked are routed into a local "VPN" that sends their traffic nowhere, so they can't connect on mobile data. DataWise does not read, record, change or send anyone the contents of any traffic, and other apps are not routed through it. You can unblock apps at any time, and Android shows a key icon while it's active.
+
+## Checking your balance (Premium)
+
+If you use "Check with this code", DataWise dials the balance code you entered (a USSD code such as *124#) through your phone and reads the reply your network sends, only to find your data balance. The reply stays on your phone.
 
 ## Advertising (Google AdMob)
 
-The free version shows banner ads from **Google AdMob** on some screens. The main Overview screen and notifications never show ads.
+The free version shows ads from **Google AdMob**: banner ads on some screens and between sections, an ad when you open the app (not the first time), and an ad after you save your data limit. Notifications never contain ads.
 
 To show, personalize and measure ads, and to prevent fraud, Google may collect and process:
 
@@ -56,8 +67,10 @@ The optional **Premium** purchase is processed entirely by **Google Play**. We n
 
 1. **Usage access:** to read data used per app and how often apps are opened (see above). You turn it on yourself in Settings and can turn it off at any time.
 2. **See all installed apps:** to show the names and icons of the apps that use data.
-3. **Notifications:** to warn you about data limits you set.
-4. **Internet:** used only to show ads and check your Premium purchase. Your usage data is never sent anywhere.
+3. **Notifications:** for limits, your bundle running low and the monthly summary.
+4. **Make phone calls (CALL_PHONE):** only if you use "Check with this code" to read your balance; asked for only then.
+5. **VPN:** only if you block apps on mobile data (Premium); Android asks you to approve it first.
+6. **Internet:** used only to show ads and check your Premium purchase. Your usage data is never sent anywhere.
 
 DataWise does **not** access your contacts, messages, location, camera, microphone, photos or files, and it cannot see what you do inside other apps, only how much data they use.
 
